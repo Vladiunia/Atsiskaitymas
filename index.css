@@ -1,0 +1,581 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.holder {
+    width: 85%;
+    margin: auto;
+}
+
+.paragraph{
+    font-size: 1.5rem;
+}
+
+.gold{
+    color: rgb(185, 168, 72);
+}
+
+.textRight{
+    text-align: right;
+}
+
+.greenNFT{
+    position: absolute;
+    top: 500px;
+}
+
+
+header img{
+    width: 250px;
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+header .mobile{
+    font-size: 2rem;
+    color: rgb(161, 158, 158);
+}
+header .desktop{
+    display: none;
+}
+
+.afterHeader {
+    margin: 20px;
+}
+
+.afterHeader img{
+    position: absolute;
+    width: 500px;
+    left: 250px;
+    top: 60px;
+}
+.afterHeader div{
+    margin-top: 80px;
+    width: 60%;
+    padding-left: 25px;
+}
+.afterHeader h5{
+    color: #ff3998;
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+.afterHeader h1{
+    font-size: 3rem;
+    font-weight:bolder;
+}
+.afterHeader p{
+    color: rgb(90, 89, 89);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.afterHeader button{
+    font-weight: 700;
+    background-color: rgba(240, 248, 255, 0);
+    color: black;
+    font-size: 1.5rem;
+    padding: 25px 60px;
+    border: 4px solid orangered;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+
+.imageText {
+    background-image: url(./images/background.svg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;    
+}
+.imageText h1{
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 0;
+}
+.imageText p{
+    padding-top: 30px;
+    font-weight: 300;
+}
+
+
+.sponsors{
+    margin-bottom: 50px;
+}
+.sponsors div{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.sponsors div img{
+    width: 200;
+}
+
+
+
+.auction h1{
+    font-weight: 600;
+}
+.auction a{
+    font-weight: 600;
+    color: rgb(85, 84, 84);
+}
+
+
+.cards {
+    margin-left: 20px;
+    padding-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cards .container1 {
+    background-color: rgb(224, 224, 224);
+    width: 200px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards .container1 div {
+    padding: 10px 20px;
+}
+.cards .container1 img{
+    width: 300px;
+}
+.cards .container1 div h5 , h1, p{
+    margin: 10px;
+}
+.cards .container1 div img{
+    width: 15px;
+    padding-right: 10px;
+}
+.cards .invisible{
+    display: none;
+}
+
+
+
+.launchSoon {
+    padding: 0;
+    margin: 0;
+    padding: 1px;
+    border-top: 2px solid rgba(128, 128, 128, 0.212);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.185);
+}
+.launchSoon img{
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    left: 350px;
+    top: 2500px;
+}
+.launchSoon div{
+    margin-top: 80px;
+    width: 50%;
+    padding-left: 25px;
+}
+.launchSoon h5{
+    color: #ff3998;
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+.launchSoon h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.launchSoon p{
+    color: #777777;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.launchSoon button{
+    font-weight: 700;
+    background-color: rgba(240, 248, 255, 0);
+    color: black;
+    font-size: 1.5rem;
+    padding: 25px 60px;
+    border: 5px solid orangered;
+    border-radius: 50px;
+    margin-bottom: 80px;
+    margin-top: 25px;
+}
+
+
+.social{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.social img {
+    width: 250px;
+}
+.social h3{
+    color: rgb(97, 96, 96);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.social i{
+    color: gray;
+    font-size: 1.5rem;
+    padding: 8px;
+}
+.social i:hover{
+    color: blueviolet;
+    font-size: 1.8rem;
+}
+
+.social .contacts{
+    flex: 5;
+    margin-right: 100px;
+}
+.social .info{
+    width: 50%;
+    flex: 1;
+    margin-right: 50px;
+}
+.social .info a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #777777;
+    font-weight: bold;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    padding: 50px 0 100px 0;
+    margin: 0;
+    font-size: 1.7rem;
+    color: gray;
+}
+footer p:nth-child(2){
+    display: none;
+}
+
+
+@media screen and (min-width: 1000px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border-radius: 20px;
+        width: 1000px;
+        overflow-x: hidden;
+    }
+
+
+    .headerBar{
+        width: 90%;
+        margin: auto;
+    }
+    }
+    .gold{
+        color: rgb(185, 168, 72);
+    }
+    .greenNFT{
+        position: absolute;
+        top: 500px;
+    }
+    .singup{
+        color: red;
+    }
+    
+    
+    
+    
+    header img{
+        width: 150px;
+    }
+    header div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    header .mobile{
+        display: none;
+    }
+    header .desktop{
+        display: flex;
+    }
+    header a{
+        padding-left: 15px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    .afterHeader{
+        margin-bottom: 120px;
+    }
+    .afterHeader img{
+        position: relative absolute;
+        width: 500px;
+        left: 450px;
+        top: 100px;
+    }
+    .afterHeader div{
+        margin-top: 150px;
+        width: 50%;
+        padding-left: 25px;
+        line-height: 1.1;
+    }
+    .afterHeader h5{
+        color: #ff3998;
+        font-size: 0.9rem;
+        padding-left: 10px;
+    }
+    .afterHeader h1{
+        font-size: 4rem;
+        font-weight:bolder;
+    }
+    .afterHeader p{
+        color: #777777;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    .afterHeader button{
+        font-weight: 700;
+        background-color: rgba(240, 248, 255, 0);
+        color: black;
+        font-size: 1rem;
+        padding: 15px 30px;
+        border: 3px solid orangered;
+        border-radius: 50px;
+        margin-bottom: 50px;
+        margin-top: 25px;
+    }
+       
+    
+    .imageText{
+        margin-top: 100px;
+        width: 90%;
+        margin: auto;
+        background-image: url(./images/background.svg);
+        background-size:cover;
+        height: 250px;
+        border-radius: 10px;
+        
+    }
+    .imageText h1{
+        font-size: 1.7rem;
+        padding-top: 120px;
+        font-weight: 600;
+        padding-bottom: 0;
+    }
+    .imageText p{
+        font-size: 0.9rem;
+        padding-top: 0;
+        font-weight: 600;
+    }
+    
+    
+    .sponsors div{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .sponsors div div{
+        padding: 50px 0;
+        width: 150px;
+        height: 100px;
+    }
+    .sponsors div div img{
+        width: 150px;
+    }
+    .sponsors .invisible{
+        display: flex;
+    }
+    
+    
+    .auction h1{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    .auction p{
+        font-size: 0.9rem;
+    }
+    .auction a{
+        font-weight: 600;
+        color: #777777;
+    }
+    
+    
+    .cards {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: space-around;
+        gap: 0px;
+        padding-left: 0;
+    }
+    
+    .cards .container1 {
+        background-color: rgb(241, 237, 237);
+        width: 220px;
+        border-radius: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .cards .container1 div{
+        padding: 5px;
+        margin: 0;
+    }
+    .cards .container1 img{
+        width: 220px;
+    }
+    .cards .container1 div h5 {
+        font-size: 0.5rem;
+        padding: 0;
+    }
+    .cards .container1 div h1{
+        font-size: 0.9rem;
+        padding: 0;
+
+    }
+    .cards .container1 div p{
+        font-size: 0.9rem;
+        padding: 0;
+
+    }
+    .cards .container1 div img{
+        width: 10px;
+        padding-right: 5px;
+    }
+    .cards .invisible{
+        display: flex;
+    }
+    
+    
+    .launchSoon{
+        padding: 1px;
+        border-top: 2px solid rgba(128, 128, 128, 0.123);
+        border-bottom: 2px solid rgba(128, 128, 128, 0.123);
+    }
+    .launchSoon img{
+        position: absolute;
+        width: 150px;
+        height: 600px;
+        left: 600px;
+        top: 1650px;
+    }
+    .launchSoon div{
+        margin-top: 80px;
+        width: 50%;
+        padding-left: 25px;
+    }
+    .launchSoon h5{
+        color: #ff3998;
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+    .launchSoon h1{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .launchSoon p{
+        color: #777777;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    .launchSoon button{
+        font-weight: 700;
+        background-color: rgba(240, 248, 255, 0);
+        color: black;
+        font-size: 1.1rem;
+        padding: 15px 30px;
+        border: 3px solid orangered;
+        border-radius: 50px;
+        margin-bottom: 73px;
+        margin-top: 25px;
+    }
+    
+    
+    .social{
+        padding-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .social img {
+        width: 150px;
+    }
+    .social h3{
+        color: #777777;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    .social i{
+        color: gray;
+        font-size: 1rem;
+        padding: 8px;
+    }
+    
+    .social .contacts{
+        flex: 5;
+        margin-right: 100px;
+    }
+    .social .info{
+        width: 50%;
+        flex: 1;
+        margin-right: 10px;
+    }
+    .social .info a{
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: rgb(63, 62, 62);
+        font-weight: bold;
+    }
+       
+        
+    footer p{
+        padding: 50px 0;
+        margin: 0;
+        font-size: 0.9rem;
+        color: gray;
+    }
+    footer p:nth-child(2){
+        display: flex;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
